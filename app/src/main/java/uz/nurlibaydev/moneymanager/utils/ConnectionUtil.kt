@@ -1,12 +1,11 @@
-package uz.nurlibaydev.onlinemathgame.utils
+package uz.nurlibaydev.moneymanager.utils
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import uz.nurlibaydev.onlinemathgame.app.App
 
-fun hasConnection(): Boolean = App.instance.isAvailableNetwork()
+//fun hasConnection(): Boolean = App.instance.isAvailableNetwork()
 
 private fun Context.isAvailableNetwork(): Boolean {
     var result = false
