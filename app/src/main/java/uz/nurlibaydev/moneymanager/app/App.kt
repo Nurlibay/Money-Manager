@@ -13,14 +13,9 @@ import uz.nurlibaydev.moneymanager.di.repositoryModule
 import uz.nurlibaydev.moneymanager.di.sharedPrefModule
 import uz.nurlibaydev.moneymanager.di.viewModelModule
 
-/**
- *  Created by Nurlibay Koshkinbaev on 15/11/2022 16:04
- */
-
 class App : Application() {
     override fun onCreate() {
         super.onCreate()
-
         if (BuildConfig.DEBUG) {
             Timber.plant(Timber.DebugTree())
         }

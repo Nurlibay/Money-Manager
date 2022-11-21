@@ -6,5 +6,63 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#689f38</color>
+    <color name="colorPrimaryDark">#387002</color>
+    <color name="colorPrimaryLight">#99d066</color>
+    <color name="colorAccent">#FFFF9800</color>
+
+    <color name="main_color">#07B464</color>
+    <color name="icon_color">#192528</color>
+
+    <color name="background">#ffffff</color>
+    <color name="background_grey">#F5F5F5</color>
+    <color name="icon_grey">#757575</color>
+    <color name="icon_white">#ffffff</color>
+    <color name="icon_black">#000000</color>
+    <color name="status_bar">#202124</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green_main">#43A047</color>
+
+    <color name="base_category_background">#F5F5F5</color>
+
+    <color name="spending">#f44336</color>
+    <color name="spending_light">#ff7961</color>
+    <color name="spending_dark">#ba000d</color>
+    <color name="spending_text">#000000</color>
+
+    <color name="profit">#4caf50</color>
+    <color name="profit_light">#80e27e</color>
+    <color name="profit_dark">#087f23</color>
+    <color name="transfer">#ffeb3b</color>
+    <color name="transfer_light">#ffff72</color>
+    <color name="transfer_dark">#c8b900</color>
+
+    <color name="chip_unselected">#EEEEEE</color>
+
+    <color name="list_item_secondary">#99000000</color>
+    <color name="list_item_primary">#de000000</color>
+
+    <color name="spending_grey">#757575</color>
+
+    <color name="base_category_food">#FFE91E63</color>
+    <color name="base_category_passage">#FF2196F3</color>
+    <color name="base_category_cinema_and_theaters">#FF8BC34A</color>
+    <color name="base_category_rent">#FF9C27B0</color>
+    <color name="base_category_books">#FFFF5722</color>
+
+    <array name="item_category_colors">
+        <item>#FFFFC107</item>
+        <item>#FF9C27B0</item>
+        <item>#FF8BC34A</item>
+        <item>#FFE91E63</item>
+        <item>#FF2196F3</item>
+        <item>#FFFF9800</item>
+        <item>#FF673AB7</item>
+        <item>#FF009688</item>
+        <item>#FFFF5722</item>
+        <item>#FF00BCD4</item>
+    </array>
+
 </resources>

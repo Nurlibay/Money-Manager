@@ -1,4 +1,4 @@
-package uz.nurlibaydev.onlinemathgame.utils
+package uz.nurlibaydev.moneymanager.utils
 
 
 open class Resource<out T>(val status: ResourceState, val data: T?, val message: String?) {
