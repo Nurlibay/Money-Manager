@@ -4,6 +4,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import org.koin.android.ext.koin.androidApplication
+import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 import uz.nurlibaydev.moneymanager.data.source.helper.AuthHelper
 import uz.nurlibaydev.moneymanager.data.source.pref.SharedPref
@@ -17,7 +18,6 @@ val dataModule = module {
     single { FirebaseFirestore.getInstance() }
     single { FirebaseStorage.getInstance() }
     single { AuthHelper(get(), get()) }
-
 }
 
 val sharedPrefModule = module {
@@ -29,6 +29,6 @@ val repositoryModule = module {
 }
 
 val viewModelModule = module {
-    single { SignInViewModel(get()) }
-    single { SignUpViewModel(get()) }
+    viewModel { SignInViewModel(get()) }
+    viewModel { SignUpViewModel(get()) }
 }

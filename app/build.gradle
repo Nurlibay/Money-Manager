@@ -4,7 +4,6 @@ plugins {
     id 'kotlin-kapt'
     id 'com.google.gms.google-services'
     id 'androidx.navigation.safeargs.kotlin'
-    id 'kotlin-parcelize'
     id 'dagger.hilt.android.plugin'
 }
 
@@ -47,10 +46,11 @@ ext {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.room:room-common:2.4.3'
 
     // unit test
     testImplementation 'junit:junit:4.13.2'
@@ -60,6 +60,12 @@ dependencies {
     /**  Live data */
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.5.1"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:2.5.1"
 
     /** Jetpack Navigation */
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
@@ -107,29 +113,11 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
 
-    /** glide for image loading */
-    implementation 'com.github.bumptech.glide:glide:4.14.2'
-
     // firebase
     implementation platform('com.google.firebase:firebase-bom:31.0.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-auth:21.1.0'
-    implementation 'com.google.firebase:firebase-firestore:24.4.0'
+    implementation 'com.google.firebase:firebase-firestore:24.4.1'
     implementation 'com.google.firebase:firebase-storage:20.1.0'
     implementation 'com.google.firebase:firebase-analytics:21.2.0'
-
-    //Runtime Permissions
-    implementation 'com.karumi:dexter:6.2.3'
-
-    //Corbind for working with UI
-    def corbind_version = "1.5.5"
-    implementation "ru.ldralighieri.corbind:corbind:$corbind_version"
-    implementation "ru.ldralighieri.corbind:corbind-material:$corbind_version"
-    implementation "ru.ldralighieri.corbind:corbind-appcompat:$corbind_version"
-    implementation "ru.ldralighieri.corbind:corbind-lifecycle:$corbind_version"
-    implementation "ru.ldralighieri.corbind:corbind-recyclerview:$corbind_version"
-    implementation "ru.ldralighieri.corbind:corbind-viewpager2:$corbind_version"
-
-    //image picker
-//    implementation 'com.github.Drjacky:ImagePicker:2.1.16'
 }

@@ -3,10 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Analytics"
-        />
+        android:gravity="center"
+        android:text="Main"
+        android:textSize="64sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

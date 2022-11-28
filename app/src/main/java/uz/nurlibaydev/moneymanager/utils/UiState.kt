@@ -1,4 +1,4 @@
-package uz.nurlibaydev.onlinemathgame.utils
+package uz.nurlibaydev.moneymanager.utils
 
 sealed class UiState<out R> {
     object Empty : UiState<Nothing>()

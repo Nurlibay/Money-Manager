@@ -2,14 +2,12 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_main"
-    app:startDestination="@id/analyticsScreen">
-
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainScreen">
     <fragment
-        android:id="@+id/analyticsScreen"
-        android:name="uz.nurlibaydev.moneymanager.presentation.main.AnalyticsScreen"
-        android:label="AnalyticsScreen"
-        tools:layout="@layout/screen_analytics"
+        android:id="@+id/mainScreen"
+        android:name="uz.nurlibaydev.moneymanager.presentation.main.MainScreen"
+        android:label="MainScreen"
+        tools:layout=""
         />
-
 </navigation>

@@ -17,7 +17,7 @@ class MainContainer : Fragment(R.layout.container_main) {
     private val sharedPref: SharedPref by inject()
     private val binding: ContainerMainBinding by viewBinding()
     private lateinit var navController: NavController
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         sharedPref.isSigned = true
@@ -26,6 +26,6 @@ class MainContainer : Fragment(R.layout.container_main) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(requireActivity(), R.id.fragment_container_view)
-        binding.bottomNavMenu.setupWithNavController(navController)
+//        binding.bottomNavMenu.setupWithNavController(navController)
     }
 }

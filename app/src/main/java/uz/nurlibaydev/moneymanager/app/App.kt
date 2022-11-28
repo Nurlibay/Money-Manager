@@ -26,6 +26,7 @@ class App : Application() {
         val modules = listOf(
             dataModule, sharedPrefModule, repositoryModule, viewModelModule
         )
+
         startKoin {
             androidLogger()
             androidContext(this@App)
