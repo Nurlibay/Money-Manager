@@ -40,7 +40,7 @@
                 android:layout_marginTop="-27dp"
                 android:fontFamily="@font/poppinsbold"
                 android:gravity="left"
-                android:text="Sign Up"
+                android:text="@string/sign_up"
                 android:textColor="#37474f"
                 android:textSize="28dp" />
 
@@ -66,7 +66,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="30dp"
                     android:layout_marginBottom="10dp"
-                    android:hint="Email"
+                    android:hint="@string/email"
                     android:inputType="textEmailAddress"
                     android:paddingVertical="18dp"
                     android:textColor="@color/black"
@@ -96,7 +96,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="30dp"
                     android:layout_marginBottom="10dp"
-                    android:hint="Password"
+                    android:hint="@string/password"
                     android:inputType="textPassword"
                     android:paddingVertical="18dp"
                     android:textColor="@color/black"
@@ -126,7 +126,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="30dp"
                     android:layout_marginBottom="10dp"
-                    android:hint="Retype Password"
+                    android:hint="@string/retype_password"
                     android:inputType="textPassword"
                     android:paddingVertical="18dp"
                     android:textColor="@color/black"
@@ -145,7 +145,7 @@
                 android:layout_marginBottom="15dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:paddingTop="7dp"
-                android:text="Sign Up"
+                android:text="@string/sign_up"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="15sp"
@@ -167,7 +167,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Already have an Accout?"
+                    android:text="@string/already_have_an_account"
                     android:textColor="#777777" />
 
                 <TextView
@@ -177,7 +177,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="5dp"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Log In"
+                    android:text="@string/log_in"
                     android:textColor="@color/orangePrimary"
                     android:textStyle="bold" />
 

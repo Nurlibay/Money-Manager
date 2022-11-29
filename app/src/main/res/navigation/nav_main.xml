@@ -9,7 +9,11 @@
         android:id="@+id/accountScreen"
         android:name="uz.nurlibaydev.moneymanager.presentation.main.AccountScreen"
         android:label="AccountScreen"
-        tools:layout="@layout/screen_account" />
+        tools:layout="@layout/screen_account">
+        <action
+            android:id="@+id/action_accountScreen_to_settingsScreen"
+            app:destination="@id/settingsScreen" />
+    </fragment>
 
     <fragment
         android:id="@+id/insertionScreen"
@@ -21,7 +25,7 @@
         android:id="@+id/transactionScreen"
         android:name="uz.nurlibaydev.moneymanager.presentation.main.TransactionScreen"
         android:label="TransactionScreen"
-        tools:layout="@layout/screen_transaction" >
+        tools:layout="@layout/screen_transaction">
         <action
             android:id="@+id/action_transactionScreen_to_transactionDetailsScreen"
             app:destination="@id/transactionDetailsScreen" />
@@ -35,16 +39,21 @@
         android:id="@+id/transactionDetailsScreen"
         android:name="uz.nurlibaydev.moneymanager.presentation.main.TransactionDetailsScreen"
         android:label="TransactionDetailsScreen"
-        tools:layout="@layout/screen_transaction_details" >
+        tools:layout="@layout/screen_transaction_details">
         <argument
             android:name="transaction"
             app:argType="uz.nurlibaydev.moneymanager.data.models.TransactionModel" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsScreen"
+        android:name="uz.nurlibaydev.moneymanager.presentation.main.SettingsScreen"
+        android:label="SettingsScreen"
+        tools:layout="@layout/screen_settings" />
 
     <!--    <fragment-->
-<!--        android:id="@+id/exportDataScreen"-->
-<!--        android:name="uz.nurlibaydev.moneymanager.presentation.main.ExportDataScreen"-->
-<!--        android:label="ExportDataScreen"-->
-<!--        tools:layout="@layout/screen_export_data" />-->
+    <!--        android:id="@+id/exportDataScreen"-->
+    <!--        android:name="uz.nurlibaydev.moneymanager.presentation.main.ExportDataScreen"-->
+    <!--        android:label="ExportDataScreen"-->
+    <!--        tools:layout="@layout/screen_export_data" />-->
 
 </navigation>

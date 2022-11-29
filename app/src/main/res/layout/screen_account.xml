@@ -29,13 +29,33 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <androidx.appcompat.widget.AppCompatImageButton
-                            android:id="@+id/btnLogout"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_gravity="end"
-                            android:layout_marginEnd="15dp"
-                            android:background="@drawable/ic_baseline_logout_24" />
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/btn_settings"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginEnd="@dimen/margin_standard"
+                                android:padding="@dimen/margin_middle"
+                                android:src="@drawable/ic_settings"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/btnLogout"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/btnLogout"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginEnd="@dimen/margin_standard"
+                                android:src="@drawable/ic_baseline_logout_24"
+                                android:padding="@dimen/margin_middle"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
 
                     </Toolbar>
 
@@ -75,7 +95,7 @@
                                 android:layout_marginTop="-3dp"
                                 android:fontFamily="@font/poppinsbold"
                                 android:gravity="start"
-                                android:text="Account Name"
+                                android:text="@string/account_name"
                                 android:textColor="#FBFBFB"
                                 android:textSize="18sp" />
 
@@ -130,10 +150,10 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:drawableLeft="@drawable/ic_not_verified_svgrepo_com"
+                                    android:drawableStart="@drawable/ic_not_verified_svgrepo_com"
                                     android:drawablePadding="7dp"
                                     android:gravity="center"
-                                    android:text="Not Verified"
+                                    android:text="@string/not_verified"
                                     android:textColor="#B8B8B8"
                                     android:textSize="11sp"
                                     android:textStyle="bold" />
@@ -159,7 +179,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/poppinsmedium"
                         android:gravity="start"
-                        android:text="All Time Transactions"
+                        android:text="@string/all_time_transactions"
                         android:textColor="#888888"
                         android:textSize="13sp"
                         android:textStyle="bold" />
@@ -190,7 +210,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/poppinsmedium"
-                                android:text="Net Amount"
+                                android:text="@string/net_amount"
                                 android:textColor="#979797"
                                 android:textSize="13sp" />
 
@@ -224,7 +244,7 @@
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/poppinsmedium"
-                                    android:text="Expense"
+                                    android:text="@string/expense"
                                     android:textColor="#979797"
                                     android:textSize="13sp" />
 
@@ -234,7 +254,7 @@
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/poppinsmedium"
-                                    android:text="Income"
+                                    android:text="@string/income"
                                     android:textColor="#979797"
                                     android:textSize="13sp" />
 
@@ -281,7 +301,7 @@
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/poppinsmedium"
                         android:gravity="start"
-                        android:text="Expense - Income Report"
+                        android:text="@string/expense_income_report"
                         android:textColor="#888888"
                         android:textSize="13sp"
                         android:textStyle="bold" />
@@ -316,12 +336,12 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_marginBottom="20dp"
                                 android:backgroundTint="@color/toscaSecondary"
-                                android:drawableLeft="@drawable/ic_calendar_svgrepo_com"
+                                android:drawableStart="@drawable/ic_calendar_svgrepo_com"
                                 android:fontFamily="@font/poppinsmedium"
                                 android:insetTop="1dp"
                                 android:insetBottom="0dp"
-                                android:paddingRight="40dp"
-                                android:text="Select date"
+                                android:paddingEnd="40dp"
+                                android:text="@string/select_date"
                                 android:textColor="@color/white"
                                 android:textSize="14sp"
                                 app:cornerRadius="20dp"
@@ -333,7 +353,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_below="@id/buttonDate"
                                 android:fontFamily="@font/poppinsmedium"
-                                android:text="Net Amount"
+                                android:text="@string/net_amount"
                                 android:textColor="#979797"
                                 android:textSize="13sp" />
 
@@ -380,7 +400,7 @@
                                             android:button="@drawable/null_radio_button"
                                             android:checked="true"
                                             android:gravity="center"
-                                            android:text="Amount"
+                                            android:text="@string/amount"
                                             android:textColor="@drawable/chart_text_selector" />
 
                                         <RadioButton
@@ -391,7 +411,7 @@
                                             android:background="@drawable/chart_selector"
                                             android:button="@drawable/null_radio_button"
                                             android:gravity="center"
-                                            android:text="Ratio"
+                                            android:text="@string/ratio"
                                             android:textColor="@drawable/chart_text_selector" />
 
                                     </RadioGroup>

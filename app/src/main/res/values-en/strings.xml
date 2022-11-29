@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Money Manager</string>
     <string name="create_account">Create account</string>
@@ -50,6 +51,7 @@
     <string name="you_can_add_transaction_below">You can add transaction below</string>
     <string name="there_is_no_all_type_transaction_nat_this_month">There is no All Type transaction\nat This Month</string>
     <string name="category">Category</string>
+
     <string name="forgot_password">Forgot Password?</string>
     <string name="sign_in_with_google">Sign In With Google</string>
     <string name="create_a_new_account">Create a new account?</string>

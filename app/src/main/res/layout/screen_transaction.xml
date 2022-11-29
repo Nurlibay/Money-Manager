@@ -38,7 +38,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="17dp"
                         android:fontFamily="@font/poppinsbold"
-                        android:text="Hi, Ferry!"
+                        android:text="@string/hi_ferry"
                         android:textColor="@color/white"
                         android:textSize="17sp" />
 
@@ -46,11 +46,11 @@
                         android:id="@+id/exportButton"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:visibility="invisible"
-                        android:layout_gravity="right"
+                        android:layout_gravity="end"
                         android:layout_marginEnd="14dp"
                         android:backgroundTint="#00FFFFFF"
-                        android:src="@drawable/ic_file_export_svgrepo_com" />
+                        android:src="@drawable/ic_file_export_svgrepo_com"
+                        android:visibility="invisible" />
 
                 </Toolbar>
 
@@ -70,7 +70,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
                         android:fontFamily="@font/poppinsmedium"
-                        android:text="Select your \ntransaction visibility below"
+                        android:text="@string/select_your_ntransaction_visibility_below"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -81,7 +81,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="22dp"
-                        android:gravity="left"
+                        android:gravity="start"
                         android:orientation="horizontal">
 
                         <Spinner
@@ -198,7 +198,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/poppinsmedium"
                 android:gravity="center"
-                android:text="No Transaction Yet!"
+                android:text="@string/no_transaction_yet"
                 android:textColor="#191919"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -213,7 +213,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/poppinsmedium"
                 android:gravity="center"
-                android:text="You can add transaction below"
+                android:text="@string/you_can_add_transaction_below"
                 android:textColor="#B3B3B3"
                 android:textSize="15sp"
                 android:visibility="gone" />
@@ -227,7 +227,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/poppinsmedium"
                 android:gravity="center"
-                android:text="There is no All Type transaction\nat This Month"
+                android:text="@string/there_is_no_all_type_transaction_nat_this_month"
                 android:textColor="#B3B3B3"
                 android:textSize="15sp"
                 android:visibility="gone" />

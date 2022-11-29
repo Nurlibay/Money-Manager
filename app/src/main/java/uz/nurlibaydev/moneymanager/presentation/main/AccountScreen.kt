@@ -12,6 +12,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.util.Pair
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.github.mikephil.charting.charts.BarChart
@@ -67,6 +68,10 @@ class AccountScreen : Fragment(R.layout.screen_account) {
         setInitDate() //initialized or set the current date data to this month date range, it is default date range when the fragment is open
 
         chartMenu()
+
+        binding.btnSettings.onClick {
+            findNavController().navigate(AccountScreenDirections.actionAccountScreenToSettingsScreen())
+        }
 
         Handler().postDelayed({ //to make setupPieChart() and showAllTimeRecap() start after fetchAmount(), otherwise the setupPieChart() just show 0.0 value
             showAllTimeRecap() //show all time recap text

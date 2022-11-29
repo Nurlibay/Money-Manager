@@ -37,7 +37,7 @@
                 android:layout_marginStart="36dp"
                 android:fontFamily="@font/poppinsbold"
                 android:gravity="start"
-                android:text="Sign In"
+                android:text="@string/sign_in"
                 android:textColor="#37474f"
                 android:textSize="28sp" />
 
@@ -94,7 +94,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="30dp"
                     android:layout_marginBottom="10dp"
-                    android:hint="Password"
+                    android:hint="@string/password"
                     android:inputType="textPassword"
                     android:paddingVertical="18dp"
                     android:textColor="@color/black"
@@ -108,11 +108,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/passLayout"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="20dp"
                 android:fontFamily="@font/poppinsmedium"
-                android:text="Forgot Password?"
+                android:text="@string/forgot_password"
                 android:textColor="#ff9f1c"
                 android:textStyle="bold" />
 
@@ -127,7 +127,7 @@
                 android:layout_marginBottom="15dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:paddingTop="7dp"
-                android:text="Sign In"
+                android:text="@string/sign_in"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="15sp"
@@ -155,7 +155,7 @@
                 android:backgroundTint="#08000000"
                 android:paddingTop="5dp"
                 android:stateListAnimator="@null"
-                android:text="Sign In With Google"
+                android:text="@string/sign_in_with_google"
                 android:textAllCaps="false"
                 android:textColor="#606060"
                 android:textSize="15sp"
@@ -179,7 +179,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Create a new Accout?"
+                    android:text="@string/create_a_new_account"
                     android:textColor="#777777" />
 
                 <TextView
@@ -189,7 +189,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="5dp"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Sign Up"
+                    android:text="@string/sign_up"
                     android:textColor="@color/orangePrimary"
                     android:textStyle="bold" />
 

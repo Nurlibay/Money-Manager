@@ -150,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_baseline_format_list_bulleted_24"
                     android:drawablePadding="8dp"
-                    android:hint="Category"
+                    android:hint="@string/category"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
 

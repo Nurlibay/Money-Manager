@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/bg_spinner.xml" value="0.1915" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/chart_not_selected.xml" value="0.1435" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/chart_selected.xml" value="0.1435" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/chart_selector.xml" value="0.1435" />
@@ -15,15 +16,20 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_app_shop.xml" value="0.1435" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_bar.xml" value="0.1435" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_baseline_account_balance_wallet_24.xml" value="0.1435" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.14" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_language.xml" value="0.14" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_launcher_logo.xml" value="0.1265" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_laundry_service.xml" value="0.1435" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_wallet.xml" value="0.158" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/shape_dialog.xml" value="0.102" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/start_background.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/view_divider.xml" value="0.136" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/bottom_sheet_fragment_color_selector.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/bottom_sheet_fragment_icon_color_selector.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/container_main.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/dialog_choose_language.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/fragment_add_edit_category.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/fragment_add_edit_transaction.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/fragment_analytics.xml" value="0.20416666666666666" />
@@ -35,12 +41,13 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/list_item_icon_selector.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/list_item_transaction.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/list_item_transaction_header_day_summary.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_account.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_analytics.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_export_data.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_forget_password.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_insertion.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_settings.xml" value="0.203125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_signin.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_signup.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/screen_splash.xml" value="0.20416666666666666" />

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Money Manager</string>
+    <string name="create_account">Зарегистрироваться</string>
+    <string name="full_name">ФИО</string>
+    <string name="email_address">Адрес электронной почты</string>
+    <string name="password">Пароль</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="already_have_an_account">У вас уже есть аккаунт?</string>
+    <string name="log_in">Логин</string>
+    <string name="sign_in">Войти</string>
+    <string name="dont_have_an_account">У вас нет аккаунта?</string>
+    <string name="password_length_condition">Пароль должен быть не менее 6 символов</string>
+    <string name="no_internet">Нет соединения с интернетом</string>
+    <string name="home">Дом</string>
+    <string name="enter_full_name">Введите полное имя</string>
+    <string name="profile">Профиль</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="email">Эл. адрес</string>
+    <string name="login_successful">Успешный вход в систему</string>
+    <string name="list">Список</string>
+    <string name="account">Счет</string>
+    <string name="expense">Расход</string>
+    <string name="income">Доход</string>
+    <string name="amount">Количество</string>
+    <string name="title">Заголовок</string>
+    <string name="today">Сегодня</string>
+    <string name="note">Примечание</string>
+    <string name="save">Сохранять</string>
+    <string name="add_ntransaction">Добавить транзакцию</string>
+    <string name="expense_transaction">Расходная транзакция</string>
+    <string name="income_transaction">Доходная транзакция</string>
+    <string name="this_month">Этот месяц</string>
+    <string name="language">Language</string>
+    <string name="english">Английский</string>
+    <string name="russion">Русский</string>
+    <string name="settings">Настройки</string>
+    <string name="lang_text">Английский</string>
+
+    <string name="account_name">Название аккаунта</string>
+    <string name="not_verified">Не подтверждено</string>
+    <string name="all_time_transactions">Транзакции за все время</string>
+    <string name="net_amount">Чистая сумма</string>
+    <string name="expense_income_report">Расходы - Отчет о доходах</string>
+    <string name="select_date">Выберите дату</string>
+    <string name="ratio">Соотношение</string>
+    <string name="hi_ferry">Hi, Ferry!</string>
+    <string name="select_your_ntransaction_visibility_below">Выберите видимость \nтранзакций ниже</string>
+    <string name="no_transaction_yet">Транзакций пока нет!</string>
+    <string name="you_can_add_transaction_below">Вы можете добавить транзакцию ниже</string>
+    <string name="there_is_no_all_type_transaction_nat_this_month">В этом месяце нет транзакций всех типов</string>
+    <string name="category">Категория</string>
+
+    <string name="forgot_password">Забыл пароль?</string>
+    <string name="sign_in_with_google">Войти через Google</string>
+    <string name="create_a_new_account">Создать новый аккаунт?</string>
+    <string name="money_manager" >Деньги менеджер</string>
+    <string name="retype_password">Введите пароль еще раз</string>
+</resources>
