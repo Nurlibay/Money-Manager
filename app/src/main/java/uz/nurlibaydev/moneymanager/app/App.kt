@@ -8,10 +8,7 @@ import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
 import timber.log.Timber
 import uz.nurlibaydev.moneymanager.BuildConfig
-import uz.nurlibaydev.moneymanager.di.dataModule
-import uz.nurlibaydev.moneymanager.di.repositoryModule
 import uz.nurlibaydev.moneymanager.di.sharedPrefModule
-import uz.nurlibaydev.moneymanager.di.viewModelModule
 
 class App : Application() {
     override fun onCreate() {
@@ -23,10 +20,7 @@ class App : Application() {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         //Koin
-        val modules = listOf(
-            dataModule, sharedPrefModule, repositoryModule, viewModelModule
-        )
-
+        val modules = listOf(sharedPrefModule)
         startKoin {
             androidLogger()
             androidContext(this@App)

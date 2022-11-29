@@ -9,23 +9,37 @@ import androidx.navigation.ui.setupWithNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import org.koin.android.ext.android.inject
 import uz.nurlibaydev.moneymanager.R
-import uz.nurlibaydev.moneymanager.data.source.pref.SharedPref
+import uz.nurlibaydev.moneymanager.data.pref.SharedPref
 import uz.nurlibaydev.moneymanager.databinding.ContainerMainBinding
+import uz.nurlibaydev.moneymanager.utils.extenions.onClick
 
 class MainContainer : Fragment(R.layout.container_main) {
 
-    private val sharedPref: SharedPref by inject()
     private val binding: ContainerMainBinding by viewBinding()
     private lateinit var navController: NavController
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        sharedPref.isSigned = true
-    }
+    private val sharedPref: SharedPref by inject()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         navController = Navigation.findNavController(requireActivity(), R.id.fragment_container_view)
-//        binding.bottomNavMenu.setupWithNavController(navController)
+        binding.bottomNavMenu.setupWithNavController(navController)
+        sharedPref.isSigned = true
+
+
+//        binding.chipAppBar.setItemSelected(R.id.transactionScreen, true)
+//        binding.chipAppBar.setOnItemSelectedListener {
+//            when (it) {
+//                R.id.transactionScreen -> {
+//                    navController.navigate(R.id.transactionScreen)
+//                }
+//                R.id.accountScreen -> {
+//                    navController.navigate(R.id.accountScreen)
+//                }
+//            }
+//        }
+//        binding.fab.onClick {
+//            navController.navigate(Gloaal)
+//        }
     }
 }

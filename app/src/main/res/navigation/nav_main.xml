@@ -3,11 +3,48 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainScreen">
+    app:startDestination="@id/transactionScreen">
+
     <fragment
-        android:id="@+id/mainScreen"
-        android:name="uz.nurlibaydev.moneymanager.presentation.main.MainScreen"
-        android:label="MainScreen"
-        tools:layout=""
-        />
+        android:id="@+id/accountScreen"
+        android:name="uz.nurlibaydev.moneymanager.presentation.main.AccountScreen"
+        android:label="AccountScreen"
+        tools:layout="@layout/screen_account" />
+
+    <fragment
+        android:id="@+id/insertionScreen"
+        android:name="uz.nurlibaydev.moneymanager.presentation.main.InsertionScreen"
+        android:label="InsertionScreen"
+        tools:layout="@layout/screen_insertion" />
+
+    <fragment
+        android:id="@+id/transactionScreen"
+        android:name="uz.nurlibaydev.moneymanager.presentation.main.TransactionScreen"
+        android:label="TransactionScreen"
+        tools:layout="@layout/screen_transaction" >
+        <action
+            android:id="@+id/action_transactionScreen_to_transactionDetailsScreen"
+            app:destination="@id/transactionDetailsScreen" />
+        <action
+            android:id="@+id/action_transactionScreen_to_insertionScreen"
+            app:destination="@id/insertionScreen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/transactionDetailsScreen"
+        android:name="uz.nurlibaydev.moneymanager.presentation.main.TransactionDetailsScreen"
+        android:label="TransactionDetailsScreen"
+        tools:layout="@layout/screen_transaction_details" >
+        <argument
+            android:name="transaction"
+            app:argType="uz.nurlibaydev.moneymanager.data.models.TransactionModel" />
+    </fragment>
+
+    <!--    <fragment-->
+<!--        android:id="@+id/exportDataScreen"-->
+<!--        android:name="uz.nurlibaydev.moneymanager.presentation.main.ExportDataScreen"-->
+<!--        android:label="ExportDataScreen"-->
+<!--        tools:layout="@layout/screen_export_data" />-->
+
 </navigation>

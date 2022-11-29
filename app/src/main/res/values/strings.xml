@@ -17,5 +17,20 @@
     <string name="profile">Profile</string>
     <string name="student_s_timetable">Student\'s timetable</string>
     <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="list">List</string>
+    <string name="account">Account</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="amount">Amount</string>
+    <string name="title">Title</string>
+    <string name="today">Today</string>
+    <string name="note">Note</string>
+    <string name="save">Save</string>
+    <string name="add_ntransaction">Add\nTransaction</string>
+    <string name="expense_transaction">Expense Transaction</string>
+    <string name="income_transaction">Income Transaction</string>
+    <string name="this_month">This Month</string>
 
 </resources>

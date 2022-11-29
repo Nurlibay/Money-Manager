@@ -5,6 +5,7 @@ plugins {
     id 'com.google.gms.google-services'
     id 'androidx.navigation.safeargs.kotlin'
     id 'dagger.hilt.android.plugin'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -13,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId "uz.nurlibaydev.moneymanager"
-        minSdk 21
+        minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -51,8 +52,11 @@ dependencies {
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.room:room-common:2.4.3'
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'
+    implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
+    implementation 'com.google.firebase:firebase-database:19.2.1'
 
-    // unit test
+    /** unit test */
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
@@ -61,10 +65,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
 
-
-    // ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel:2.5.1"
-    // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata:2.5.1"
 
     /** Jetpack Navigation */
@@ -113,11 +114,29 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
 
-    // firebase
+    /** firebase */
     implementation platform('com.google.firebase:firebase-bom:31.0.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-auth:21.1.0'
     implementation 'com.google.firebase:firebase-firestore:24.4.1'
     implementation 'com.google.firebase:firebase-storage:20.1.0'
     implementation 'com.google.firebase:firebase-analytics:21.2.0'
+
+    /** bottom navigation with floating action button */
+    implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
+
+    /** collapse toolbar */
+    implementation 'com.google.android.material:material:1.7.0'
+
+    /** shimmer effect dependencies */
+    implementation 'com.facebook.shimmer:shimmer:0.5.0@aar'
+
+    implementation 'com.google.android.material:material:1.7.0'
+
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    /** pie Chart dependency */
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    //implementation files('libs/poi-3.7.jar')
 }
